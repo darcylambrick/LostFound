@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView android:id="@+id/tvTitle"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="#FF5722"
+            android:textSize="16sp" />
+
+        <TextView android:id="@+id/tvDescription"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvPhone"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvDate"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/tvLocation"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button android:id="@+id/btnDelete"
+            android:layout_marginTop="16dp"
+            android:text="Delete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
