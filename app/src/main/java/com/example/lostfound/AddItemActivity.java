@@ -61,7 +61,7 @@ public class AddItemActivity extends AppCompatActivity {
 
         // Initialize Places API
         if (!Places.isInitialized()) {
-            Places.initialize(getApplicationContext(), "AIzaSyBC1JLiOtqbGKlbRnxanUo-1D3JsLI6-H0", Locale.getDefault());
+            Places.initialize(getApplicationContext(), "API KEY", Locale.getDefault());
         }
 
         // Set Spinner
